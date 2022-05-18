@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+}
+
+.rect {
+  cursor: move;
+  user-select: none;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.content1 {
+  background-color: #ffeaa7;
+}
+
+.content2 {
+  background-color: #f9b1a0;
+}
+
+.lefteye {}
